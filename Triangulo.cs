@@ -6,6 +6,7 @@ namespace Figura
 
      private double altura;
      public double base_t;
+     public double lado;
 
      public double Altura 
      {
@@ -15,9 +16,10 @@ namespace Figura
      }
 
 
-    public Triangulo(double a,double b){
+    public Triangulo(double a,double b,double lado){
       this.altura = a;
       this.base_t = b;
+      this.lado = lado;
     }      
 
       public override  void MetodoArea()
@@ -30,6 +32,11 @@ namespace Figura
       public double GetArea(){
 
         return (base_t*altura)/2;
+      }
+
+      public double GetPerimetro()
+      {
+        return 3*lado;
       }
        
         

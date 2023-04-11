@@ -24,6 +24,10 @@ namespace Figura
        {
         return alto*ancho;
        }
+
+       public double GetPerimetro(){
+        return 2*alto+2*ancho;
+       }
         
         
     }
