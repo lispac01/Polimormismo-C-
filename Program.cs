@@ -33,11 +33,10 @@ namespace Figura
 
         figura1.MetodoArea();
         figura2.MetodoArea();
-        figura3.SetAlto(50);
         figura3.MetodoArea();
        
        Console.WriteLine($"El area del triangulo de base  {figura2.base_t} y altura  {figura2.Altura} es : " +figura2.GetArea());  
-       Console.WriteLine($"El area del rectangulo de alto {figura3.SetAlto} y altura  {figura3.ancho} es : " +figura3.GetArea());  
+       Console.WriteLine($"El area del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetArea());  
 
         }
     }

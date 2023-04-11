@@ -4,14 +4,10 @@ namespace Figura
     {
        
 
-       private double alto;
+       public double alto;
        public double ancho;
 
-       public void SetAlto(double alto){
-
-        this.alto = alto;
-
-       }
+       
 
        public Rectangulo(double alto,double ancho)
        {
