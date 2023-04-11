@@ -44,7 +44,7 @@ namespace Figura
        Console.WriteLine($"El area del triangulo de base  {figura2.base_t} y altura  {figura2.Altura} es : " +figura2.GetArea());  
        Console.WriteLine($"El area del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetArea());  
        Console.WriteLine($"El perimetro del triangulos de lado {figura2.lado} es :"+ figura2.GetPerimetro());
-        Console.WriteLine($"El perimetro del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetPerimetro());
+       Console.WriteLine($"El perimetro del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetPerimetro());
        
 
         }
