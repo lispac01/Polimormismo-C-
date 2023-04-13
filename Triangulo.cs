@@ -22,6 +22,10 @@ namespace Figura
       this.lado = lado;
     }      
 
+      public void ImprimirTriangulo()
+      {
+       Console.WriteLine("Soy un triangulo");
+      }
       public override  void MetodoArea()
       {
         

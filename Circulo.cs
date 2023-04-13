@@ -14,6 +14,11 @@ namespace Figura
             Console.WriteLine("El area de un circulo es: PI*radio*radio");
         }
 
+         public void ImprimirCirculo()
+        {
+         Console.WriteLine("Soy un Circulo");
+        }
+
         public double GetArea(){
             return 3.1415*radio*radio;
         }

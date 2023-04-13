@@ -7,7 +7,10 @@ namespace Figura
        public double alto;
        public double ancho;
 
-       
+       public void ImprimirRectangulo()
+      {
+       Console.WriteLine("Soy un Rectangulo");
+      }
 
        public Rectangulo(double alto,double ancho)
        {
