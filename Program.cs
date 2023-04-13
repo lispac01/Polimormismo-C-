@@ -53,6 +53,7 @@ namespace Figura
        Console.WriteLine($"El area del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetArea());  
        Console.WriteLine($"El perimetro del triangulos de lado {figura2.lado} es :"+ figura2.GetPerimetro());
        Console.WriteLine($"El perimetro del rectangulo de alto {figura3.alto} y altura  {figura3.ancho} es : " +figura3.GetPerimetro());
+       Console.WriteLine($"El perimetro del circulo de radio {figura4.radio} es: "+figura4.GetPerimetro());
        Console.Write("Fin del programa");
        
 
