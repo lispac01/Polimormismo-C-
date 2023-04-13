@@ -8,7 +8,7 @@ namespace Figura
 
         
         public virtual void MetodoArea(){
-            Console.WriteLine("Calculó area de figuras geometricas");
+            Console.WriteLine("Calculo area de figuras geometricas");
 
         }
         
