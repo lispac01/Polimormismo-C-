@@ -18,6 +18,11 @@ namespace Figura
             return 3.1415*radio*radio;
         }
 
+        public double GetPerimetro()
+        {
+            return  3.1415*2*radio;
+        }
+
 
     }
 }
