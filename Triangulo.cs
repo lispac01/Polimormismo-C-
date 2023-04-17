@@ -4,17 +4,9 @@ namespace Figura
     public class Triangulo: Figura
     {
 
-     private double altura;
+     public double altura;
      public double base_t;
      public double lado;
-
-     public double Altura 
-     {
-    
-      get { return altura;}
-      set { altura = value;}
-     }
-
 
     public Triangulo(double a,double b,double lado){
       this.altura = a;
